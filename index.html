@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поднебесная гостиница</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background">
+	<header class="header">
+      <h1 class="header-title">НОМЕРА И ЦЕНЫ</h1>
+  </header>
+	<section class="main">
+		<div class="card card-selected">
+			<div class="logo">
+				<img class="logo-img" src="img/logo.png">
+				<div class="logo-position">
+					<span class="logo-text">Лучшая<br>цена</span>
+				</div>
+			</div>
+			<img class="card-image" src="files/134.jpg" alt="уютный номер">
+			<div class="card-description">
+				<h2 class="header-title header-text">Представительский люкс</h2>
+				<p class="card-text">Эксклюзивный номер с панорамным видом на центр города Москвы</p>
+			</div>
+			<div>
+				<div class="line"></div>
+				<p class="price">от <span class="header-title price-size">7900</span> руб./сутки</p>
+				<input type="button" class="button" onclick='changeText(0)' value="Забронировать">
+			</div>
+		</div>
+		<div class="card">
+			<div class="logo">
+				<img class="logo-img" src="img/logo.png">
+				<div class="logo-position">
+					<span class="logo-text">Лучшая<br>цена</span>
+				</div>
+			</div>
+			<img class="card-image" src="files/135.jpg" alt="уютный номер">
+			<div class="card-description">
+				<h2 class="header-title header-text">Дуплекс</h2>
+				<p class="card-text">Просторный двухкомнатный номер с шикарным видом на парк</p>
+			</div>
+			<div>
+				<div class="line"></div>
+				<p class="price">от <span class="header-title price-size">7900</span> руб./сутки</p>
+				<input type="button" class="button" onclick='changeText(1)' value="Забронировать">
+			</div>
+		</div>
+		<div class="card">
+			<div class="logo">
+				<img class="logo-img" src="img/logo.png">
+				<div class="logo-position">
+					<span class="logo-text">Лучшая<br>цена</span>
+				</div>
+			</div>
+			<img class="card-image" src="files/136.jpg" alt="уютный номер">
+			<div class="card-description">
+				<h2 class="header-title header-text">Бизнес-люкс</h2>
+				<p class="card-text">Трехкомнатный номер с панорамным видом на Москва-реку</p>
+			</div>
+			<div>
+				<div class="line"></div>
+				<p class="price">от <span class="header-title price-size">7900</span> руб./сутки</p>
+				<div class="button">Забронировать</div>
+			</div>
+		</div>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
